@@ -1,0 +1,18 @@
+string=input("enter the string:")
+i=0
+countAlpha=0
+countSpace=0
+while(i < len(string)):
+    if((string[i]>='A' and string[i]<='Z')or(string[i]>='a' and string[i]<='z')):
+        countAlpha=countAlpha+1
+    elif(string[i]==' '):
+        countSpace=countSpace+1
+    else:
+        print("hi")
+
+    # if string[i] == " ":
+    #     countAlpha += 1
+    #     countSpace += 1 
+    i=i+1
+print("the total number of charachters is ",countAlpha+1)
+print("the total number of charachters is ",countSpace)
