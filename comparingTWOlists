@@ -1,0 +1,18 @@
+a=[]
+b=[]
+s=[0,0]
+
+a = [int(item) for item in input().split()][:3]
+
+b = [int(item) for item in input().split()][:3]
+
+for i in range(3):
+    if a[i]>b[i]:
+        s[0]+=1
+    if a[i]<b[i]:
+        s[1]+=1
+    if a[i]==b[i]:
+        s[0]+=0
+        s[1]+=0
+for i in s:
+    print(i,end=" ")
