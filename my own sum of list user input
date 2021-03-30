@@ -1,0 +1,18 @@
+n=int(input("enter"))
+b=[]
+c=[]
+for i in range(n):
+    a=list(map(int,input().split()))
+    b.append(a)
+print(b)
+    
+for i in b:
+    for j in i:
+        print(j)
+        c.append(j)
+print(c)
+
+sum=0
+for i in c:
+    sum+=i
+print(sum)
