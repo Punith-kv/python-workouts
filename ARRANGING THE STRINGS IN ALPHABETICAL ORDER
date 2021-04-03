@@ -1,0 +1,3 @@
+list2=[input() for i in range(5)]
+for i in sorted(list2):
+    print(i)
