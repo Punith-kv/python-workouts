@@ -1,0 +1,9 @@
+def qsort(list):
+    if len(list) < 2:
+        return list
+
+    pivot = list.pop()
+    left = filter(lambda x: x <= pivot, list)
+    right = filter(lambda x: x > pivot, list)
+
+    return qsort(left) + [pivot] + qsort(right)
