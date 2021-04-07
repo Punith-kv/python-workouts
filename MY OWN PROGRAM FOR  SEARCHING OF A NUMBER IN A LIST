@@ -1,0 +1,8 @@
+num = int(input("ENTER THE NUMBER : "))
+list1=[1,2,3,4,5]
+try:
+    c=list1.index(num)
+    print("the search element is found at index number",c,"in list1")
+except:
+    print("the element is not found")
+    
