@@ -1,0 +1,14 @@
+n=int(input("enter the num:"))
+print("ENTER THE WORDS:")
+words=list()
+for i in range(0,n):
+    words.append(input())
+temp=""
+print(words)
+for i in range(len(words)):
+    for j in range(len(words)-i-1):
+        if words[j]>words[j+1]:
+            words[j],words[j+1] = words[j+1],words[j]
+print("the sorted words are:")
+for i in range(len(words)):
+    print(words[i])
