@@ -1,0 +1,9 @@
+a=["a","b"]
+b=[]
+i=0
+while i<len(a):
+    for num in a:
+        c=ord(num)
+        b.append(c)
+        i=i+1
+print(b)
