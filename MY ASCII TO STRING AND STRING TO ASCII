@@ -1,0 +1,13 @@
+list1=[]
+for i in range(5):
+    list1.append(input())
+list2=[]
+for i in list1:
+    c=ord(i)
+    list2.append(c)
+print(list2)
+list3=[]
+for i in list2:
+    d=chr(i)
+    list3.append(d)
+print(sorted(list3))
