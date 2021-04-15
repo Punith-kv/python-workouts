@@ -1,0 +1,12 @@
+'''
+class student:
+    clg='xyz'
+    def __init__(self,name,rollno):
+        self.name=name
+        self.rollno=rollno
+    def display(self):
+        print("hello",self.name)
+        print("your rollno is",self.rollno)
+        print("clg is",student.clg)
+p=student("rias","one")
+p.display()
