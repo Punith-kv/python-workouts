@@ -1,0 +1,6 @@
+class student:
+    @staticmethod
+    def display():
+        print("hello")
+p=student()
+p.display()
