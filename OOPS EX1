@@ -1,0 +1,16 @@
+class student:
+    def __init__(self,name,roll,address,zipcode):
+        self.name=name
+        self.roll=roll
+        self.address=address
+        self.zipcode=zipcode
+    def display(self):
+        print("This is Student Details")
+        print("Student Name :",self.name)
+        print("Roll no   is       :",self.roll)
+        print("Address is       :",self.address)
+        print("Zipcode is       :",self.zipcode)
+        print("Student Detail is Closed")
+    
+s1=student("\bsaveetha","\b101","\bChennai","\b600005")
+s1.display()
