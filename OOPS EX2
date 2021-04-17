@@ -1,0 +1,14 @@
+class student:
+    def __init__(self,emp,block,des,apart):
+        self.emp=emp
+        self.block=block
+        self.des=des
+        self.apart=apart
+    def display(self):
+        print("Employee Name :",self.emp)
+        print("Designation :",self.block)
+        print("Block :",self.des)
+        print("Department :",self.apart)
+    
+s1=student("XYZ","Project Manager","AI-01","Training")
+s1.display()
