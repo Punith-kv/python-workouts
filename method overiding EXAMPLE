@@ -1,0 +1,8 @@
+class Father:
+  def transport(self):
+       print("CYCLE")
+class Son(Father):
+  def transport(self):
+       print("BIKE")
+c1=Son()
+c1.transport()
