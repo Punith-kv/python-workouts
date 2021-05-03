@@ -1,0 +1,6 @@
+class A():
+  __a=10
+  def __display(self):
+    print("macha")
+    print(self.__a)
+c1=A()
